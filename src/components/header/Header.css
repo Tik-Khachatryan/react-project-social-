@@ -1,0 +1,53 @@
+
+*{
+    transition:all 1s ;
+}
+
+h1{
+    color: #2d51a3;
+    margin: auto;
+    font-size: 60px;
+    text-shadow: 0 0 60px #aeaeae;
+}
+
+h1:hover{
+    transform: translateY(5px);
+    color: #274487;
+    text-shadow: 0 0 100px #8f8f8f;
+    cursor: default;
+
+}
+
+
+#uploader{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 15px;
+    background: #2d51a3;
+    color: #dddddd;
+}
+
+#chooseFile{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin: 15px;
+    background: #2d51a3;
+    color: #dddddd;
+}
+
+.user{
+    transform: translateY(70px);
+    position: absolute;
+    right: 120px;
+    box-shadow: 0 0 15px #2d51a3;
+    width: 19%;
+}
+
+.user a {
+    text-decoration: none;
+    color: black;
+}

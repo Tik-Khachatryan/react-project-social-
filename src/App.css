@@ -1,0 +1,38 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+.p {
+    color: red;
+}
+
+h2 {
+    color: #2d51a3;
+    text-shadow: 0 0 15px #8f8f8f;
+    font-size: 30px;
+}
+
+.select {
+    background: none;
+    outline: none;
+}
+
+.select .option {
+    color: #2d51a3;
+}
